@@ -1,0 +1,80 @@
+-modified lines in .cfg are marked with //************************
+
+
+***version 4.0
+Part TurboJet:
+- reworked the whole model in blender to get the animations.
+- added emissive texture for heating.
+- reworked textures.
+- made a reworked "Nuke Cruiser" ship in SPH under the name "A Nuke Cruiser-Skalou-02.craft"
+- reworked the plume effect: added a white exhaust trail.
+- now the rotors are spinning!
+-- added "occludeNode = top" to "ModuleResourceIntake",
+
+***version 3.0
+
+Part Kandl:
+ - flipped verticaly the texture "RadioIsotopeRocket.dds"
+
+***version 2.0
+
+Part lightbulb:
+ - removed fairings colliders
+ - added specular to shrouds
+
+
+Part Kandl:
+ - part copied as KANDL-2.
+ - imported model to blender and cleaned things.
+ - rotated the model 90° so there is a lateral symmetry of pistons in the hangars directly.
+ - increased the nozzles size while reducing the body lenght to keep the same total lenght (for retro compatibility).
+ - reduced the number of colliders.
+ - reduced the pistons size.(too big in my opinion for a so low thrust).
+ - fixed and tweaked textures.
+ - brightened shroud texture.
+ - rebuit emmissive animation (in FXModuleAnimateThrottle now).
+
+
+todo: (suggest)
+ - tweak configs.
+ - rename parts names for the release.
+
+
+***version 1.0
+
+-modified lines in .cfg are marked with //************************
+
+Part lightbulb:
+
+- imported model to blender
+- cleaned things:
+	- cleaned mesh etc... due to import (Blender .mu import/export addon v1.0.0)
+	- rotated objects to be ready for Unity without rotating them again.
+	- merged 2 colliders for performance. 
+	- fixed a mesh bug where the piston could be seen (a bit) outside the bulb during gimbaling.
+	- fixed texture on piston showing the trick of the fake piston not moving (dark "shadow" texture).
+- separated emissive animation in 2 (and so cut/past a piece of the bottom of the bulb mesh to the nozzles):
+	- 1 linked to the throttle for nozzles: FXModuleAnimateThrottle
+	- 1 linked to the part internal temperature (bulb): ModuleAnimateHeat
+-copied and modified cfg in LightBulb-2.cfg
+-reworked the too dark/grey textures for fairings.
+
+
+Fx (effect for engines):
+
+- converted plasma.mbm texture to .dds
+
+
+todo: (suggest)
+
+-remove "surface attachable": allowSrfAttach in attachRules. 
+(or i cant set the colliders to be not attachable in unity for fairing and lower bulb)
+-other engines?
+-remove the 6 colliders for fairings? (performance)
+-remove ressource "IntakeAtm" patch, dependancy to "Community Resource Pack" containing it instead?
+http://forum.kerbalspaceprogram.com/index.php?/topic/83007-13-community-resource-pack/
+or use "IntakeAir" with "checkForOxygen = false" ?
+- merge the module manager patches directly into the part config.
+- tweak parameters: increase heat generation or lower heat resistance (we have stock radiators now) and trust damage (power and distance).
+
+-enjoy :p

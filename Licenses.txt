@@ -1,0 +1,15 @@
+This is a compilation and revival of a number of old mods.
+
+Each mod has it's own license in the appropriate directory:
+
+
+AoATech - CC-BY-NC-SA 4.0
+Atomic Age - CC-BY-NC-SA 4.0
+Lightning Cockpit - CC-BY-NC-SA 3.0
+Clockwork Industries - GPLv3
+KSL9000 - GPLv2
+Farscape - ?????
+Mk2 Containers - CC-BY-NC 4.0
+Mk2 Essentials - MIT
+Mk2 Solar Batteries - MIT
+

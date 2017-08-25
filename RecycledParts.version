@@ -1,0 +1,16 @@
+{
+  "NAME": "KaptainsLog",
+  "URL": "https://raw.githubusercontent.com/linuxgurugamer/SpaceTuxIndustriesRecycledParts/master/RecycledParts.version",
+  "VERSION": {
+    "MAJOR": 0,
+    "MINOR": 1,
+    "PATCH": 0,
+    "BUILD": 0
+  },
+  "KSP_VERSION": {
+    "MAJOR": 1,
+    "MINOR": 3,
+    "PATCH": 0
+  }
+}
+

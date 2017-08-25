@@ -1,0 +1,9 @@
+//Removes GimbalResponseSpeed
+@PART[nuclearEngineKANDL|nuclearEngineLANTR|nuclearEngineLightbulb|NuclearJetEngine]:HAS[@MODULE[ModuleGimbal]]:NEEDS[AtomicAge]
+{
+  @MODULE[ModuleGimbal]
+  {
+    !useGimbalResponseSpeed = DELETE
+    !gimbalResponseSpeed = DELETE
+  }
+}

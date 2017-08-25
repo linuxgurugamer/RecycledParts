@@ -1,0 +1,39 @@
+
+***version 1.0
+
+-modified lines in .cfg are marked with //************************
+
+Part lightbulb:
+
+- imported model to blender
+- cleaned things:
+	- cleaned mesh etc... due to import (Blender .mu import/export addon v1.0.0)
+	- rotated objects to be ready for Unity without rotating them again.
+	- merged 2 colliders for performance. 
+	- fixed a mesh bug where the piston could be seen (a bit) outside the bulb during gimbaling.
+	- fixed texture on piston showing the trick of the fake piston not moving (dark "shadow" texture).
+- separated emissive animation in 2 (and so cut/past a piece of the bottom of the bulb mesh to the nozzles):
+	- 1 linked to the throttle for nozzles: FXModuleAnimateThrottle
+	- 1 linked to the part internal temperature (bulb): ModuleAnimateHeat
+-copied and modified cfg in LightBulb-2.cfg
+-reworked the too dark/grey textures for fairings.
+
+
+Fx (effect for engines):
+
+- converted plasma.mbm texture to .dds
+
+
+todo: (suggest)
+
+-remove "surface attachable": allowSrfAttach in attachRules. 
+(or i cant set the colliders to be not attachable in unity for fairing and lower bulb)
+-other engines?
+-remove the 6 colliders for fairings? (performance)
+-remove ressource "IntakeAtm" patch, dependancy to "Community Resource Pack" containing it instead?
+http://forum.kerbalspaceprogram.com/index.php?/topic/83007-13-community-resource-pack/
+or use "IntakeAir" with "checkForOxygen = false" ?
+- merge the module manager patches directly into the part config.
+- tweak parameters: increase heat generation or lower heat resistance (we have stock radiators now) and trust damage (power and distance).
+
+-enjoy :p

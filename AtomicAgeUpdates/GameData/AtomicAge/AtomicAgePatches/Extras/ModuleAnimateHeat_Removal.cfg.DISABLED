@@ -1,0 +1,14 @@
+//Converts ModuleAnimateHeat to FXModuleAnimateThrottle
+@PART[nuclearEngineKANDL|nuclearEngineLANTR|nuclearEngineLightbulb|NuclearJetEngine]:HAS[@MODULE[ModuleAnimateHeat]]:NEEDS[AtomicAge]
+{
+  MODULE
+	{
+		name = FXModuleAnimateThrottle
+		animationName = #$../MODULE[ModuleAnimateHeat]/ThermalAnim$
+		responseSpeed = 0.001
+		dependOnEngineState = True
+		dependOnThrottle = True
+	}
+
+  !MODULE[ModuleAnimateHeat]{}
+}
