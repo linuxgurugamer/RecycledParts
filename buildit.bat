@@ -10,6 +10,7 @@ set GAMEDIR=SpaceTuxIndustries\%MODNAME%
 set LICENSE=License.txt
 set README=ReadMe.md
 set CHANGELOG=ChangeLog.txt
+set DEPENDSON=RequiredMods.txt
 
 set RELEASEDIR=d:\Users\jbb\release
 set ZIP="c:\Program Files\7-zip\7z.exe"
@@ -22,6 +23,7 @@ copy /Y ..\MiniAVC.dll %GAMEDATA%\%GAMEDIR%
 if "%LICENSE%" NEQ "" copy /y  %LICENSE% %GAMEDATA%\%GAMEDIR%
 if "%README%" NEQ "" copy /Y %README% %GAMEDATA%\%GAMEDIR%
 if "%CHANGELOG%" NEQ "" copy /Y %CHANGELOG% %GAMEDATA%\%GAMEDIR%
+if "%DEPENDSON%" NEQ "" copy /Y %DEPENDSON% %GAMEDATA%\%GAMEDIR%
 
 rem Get Version info
 
