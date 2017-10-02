@@ -1,0 +1,11 @@
+Mk2 Lightning Cockpit
+	B9 Aerospace Props
+
+Farscape
+	KSPWheels
+	PatchManager
+
+Atomic Age
+	Firespitter
+	CommunityTechTree (recommended)
+	ModuleManager

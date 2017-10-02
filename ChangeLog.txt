@@ -1,2 +1,5 @@
 0.1.0
 	Initial release
+
+0.1.0.1
+	Fixed a typo in the LANTR config

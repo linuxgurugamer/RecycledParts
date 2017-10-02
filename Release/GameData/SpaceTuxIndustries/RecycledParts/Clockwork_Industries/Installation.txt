@@ -1,0 +1,5 @@
+If you already have a copy of Clockworks spare parts installed then delete it before copying.
+
+ 
+
+To install simply copy all of the files into your GameData directory.

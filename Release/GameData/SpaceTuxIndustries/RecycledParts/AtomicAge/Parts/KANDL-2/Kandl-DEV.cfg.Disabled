@@ -1,0 +1,28 @@
+//Patch for testing things, to be delete//************************
+
+@PART[nuclearEngineKANDL2]:NEEDS[AtomicAge]//************************
+{
+	@MODULE[ModuleEnginesFX]
+	{
+		@heatProduction = 3000//400
+	}
+}
+
+@PART[nuclearEngineKANDL]:NEEDS[AtomicAge]//************************
+{
+	%MODULE[FXModuleAnimateThrottle]
+	{
+		//name = FXModuleAnimateThrottle
+		%animationName = #$@PART[nuclearEngineKANDL]/MODULE[ModuleAnimateHeat]/ThermalAnim$//KANDL_overheat
+		%responseSpeed = #$@PART[nuclearEngineKANDL2]/MODULE[FXModuleAnimateThrottle]/responseSpeed$//0.001
+		%dependOnEngineState = #$@PART[nuclearEngineKANDL2]/MODULE[FXModuleAnimateThrottle]/dependOnEngineState$//True
+		%dependOnThrottle = #$@PART[nuclearEngineKANDL2]/MODULE[FXModuleAnimateThrottle]/dependOnThrottle$//True
+	}
+	
+	!MODULE[ModuleAnimateHeat]{}
+	
+	@MODULE[ModuleEnginesFX]
+	{
+		@heatProduction = #$@PART[nuclearEngineKANDL2]/MODULE[ModuleEnginesFX]/heatProduction$//400
+	}
+}
