@@ -84,7 +84,6 @@ Farscape
 	PatchManager
 
 Atomic Age
-	Firespitter
 	CommunityTechTree (recommended)
 	ModuleManager
 

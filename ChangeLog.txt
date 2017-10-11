@@ -1,8 +1,22 @@
 0.1.0
-	Initial release
+Initial release
+
+
 
 0.1.0.1
-	Fixed a typo in the LANTR config
+Fixed a typo in the LANTR config
+
+
 
 0.1.0.2
-	Fixed node direction in the Lightning cockpit
+
+Fixed node direction in the Lightning cockpit
+
+
+0.1.0.3
+
+Fixed .version
+	AtomicAge:
+		Fixed shroud in the KANDL engine
+		Cleaned the Lightbulb folder
+		Removed Firespitter dependancy
