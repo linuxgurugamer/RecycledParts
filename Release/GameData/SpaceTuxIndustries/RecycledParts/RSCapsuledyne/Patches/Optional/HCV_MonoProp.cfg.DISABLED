@@ -1,0 +1,22 @@
+//Restores Taurus HCV engines back to original MonoProp version
+@PART[TaurusHCV]:NEEDS[RSCapsuledyne]:FOR[zzz_Taurus]
+{
+
+  @MODULE[ModuleEngines*]
+  {
+    %EngineType = MonoProp
+  	@PROPELLANT[SolidFuel]
+  	{
+  		@name = MonoPropellant
+  	}
+  }
+
+  @RESOURCE[MonoPropellant]
+  {
+    @amount = 150 // 100
+    @maxAmount = 150 // 100
+  }
+  
+  !RESOURCE[SolidFuel]{}
+
+}

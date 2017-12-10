@@ -1,0 +1,185 @@
+PART
+{
+	name = TaurusScienceBay
+	module = Part
+	author = J. Robinson, J. Sathe
+	
+	MODEL
+	{
+		model = RSCapsuledyne/Parts/ScienceBay/model1
+		scale = 1,1,1
+	}
+	
+	rescaleFactor = 1
+	
+	node_stack_top = 0.0, 1, 0.0, 0.0, 1, 0.0, 3
+	node_stack_bottom = 0.0, -1, 0.0, 0.0, -1, 0.0, 3
+	//node_attach = 0.0, 0.0, -1.89, 0.0, 0.0, 1.0
+	
+	CrewCapacity = 3
+	
+	TechRequired = advScienceTech
+	entryCost = 15600
+	cost = 6000
+	category = Science
+	subcategory = 0
+	title = SPB-HUGE-3 Science Processing / Cargo Bay
+	manufacturer = R&S Capsuledyne
+	description = Streamline your launch vehicle, space station, or basement laboratory with the R&S Capsuledyne combined science processing module and cargo storage bay. LAWYER'S NOTE: Cargo bay not certified for Kerbal transport.
+	
+	attachRules = 1,0,1,1,0
+	
+	mass = 5.5
+	dragModelType = default
+	maximum_drag = 0.2
+	minimum_drag = 0.3
+	angularDrag = 2
+	crashTolerance = 6
+	breakingForce = 200
+	breakingTorque = 200
+	maxTemp = 1000
+	skinMaxTemp = 2200
+	bulkheadProfiles = size3
+	vesselType = Ship
+
+	noAutoEVAMulti = True
+
+	bulkheadProfiles = size3
+	tags = experiment laboratory research science
+	
+	
+	MODULE
+	{
+		name = ModuleScienceContainer
+		
+		reviewActionName = Review Data
+		storeActionName = Store Experiments	
+		collectActionName = Take Data
+		evaOnlyStorage = True
+		storageRange = 2
+		allowRepeatedSubjects = True
+	}
+	
+	MODULE
+	{
+		name = ModuleScienceLab
+	
+		containerModuleIndex = 0
+		dataStorage = 1250	
+		crewsRequired = 1
+		canResetConnectedModules = True
+		canResetNearbyModules = True
+		interactionRange = 5
+		SurfaceBonus = .15
+		ContextBonus = .35
+		homeworldMultiplier = .15
+		
+		RESOURCE_PROCESS
+		{
+			name = ElectricCharge
+			amount = 12.5
+		}
+	}
+	
+	MODULE
+		{
+			name = ModuleScienceConverter
+			dataProcessingMultiplier = 0.5 // Multiplier to data processing rate and therefore science rate
+			scientistBonus = 0.25	//Bonus per scientist star - need at least one! So 0.25x - 2.5x 
+			researchTime = 7			//Larger = slower.	Exponential!
+			scienceMultiplier = 5	//How much science does data turn into?
+			scienceCap = 1250			//How much science can we store before having to transmit?		
+			powerRequirement = 6	//EC/Sec to research
+			ConverterName = Research
+			StartActionName = Start Research
+			StopActionName = Stop Research
+			ToggleActionName = Toggle Research
+		}
+	
+	
+	MODULE
+	{
+		 name = ModuleAnimateGeneric
+		 animationName = bayDoor
+	//	 isOneShot = false
+		 startEventGUIName = Open Doors
+		 endEventGUIName = Close Doors
+		 actionGUIName = Toggle Bay Doors
+	}
+	
+	MODULE
+	{
+		name = ModuleCargoBay
+		DeployModuleIndex = 3
+		closedPosition = 0
+		lookupRadius = 3
+		lookupCenter = 1.5,0,0
+		
+		//nodeOuterForeID = top
+		//nodeOuterAftID = bottom
+	}
+	MODULE
+	{
+		name = ModuleCargoBay
+		DeployModuleIndex = 3
+		closedPosition = 0
+		lookupRadius = 3
+		lookupCenter = -1.5,0,0
+		
+		//nodeOuterForeID = top
+		//nodeOuterAftID = bottom
+	}
+
+	MODULE
+	{
+		name = ModuleKerbNetAccess
+		MinimumFoV = 17
+		MaximumFoV = 63
+		AnomalyDetection = 0
+		DISPLAY_MODES
+		{
+			Mode = Terrain
+			Mode = Biome
+		}
+		REQUIRED_EFFECTS
+		{
+			Effect = ScienceSkill
+		}
+	}
+
+	MODULE
+	{
+		name = ModuleExperienceManagement
+		costPerKerbal = 0
+	}
+	
+	INTERNAL
+	{
+		name = TaurusScience
+	}		
+	
+	MODULE
+	{
+		name = FlagDecal
+		textureQuadName = flag1
+	}
+	
+	MODULE
+	{
+		name = FlagDecal
+		textureQuadName = flag2
+	}
+	
+	MODULE
+	{
+		name = FlagDecal
+		textureQuadName = flag3
+	}
+	
+	MODULE
+	{
+		name = FlagDecal
+		textureQuadName = flag4
+	}
+	
+}

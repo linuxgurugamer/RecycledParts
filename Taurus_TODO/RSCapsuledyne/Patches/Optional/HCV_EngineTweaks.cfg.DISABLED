@@ -1,0 +1,39 @@
+//Allows Taurus HCV engine to be shut down
+@PART[TaurusHCV]:NEEDS[RSCapsuledyne]:FINAL
+{
+  @MODULE[ModuleEngines*]
+  {
+    %allowShutdown = True // False
+  }
+}
+
+//Allows Taurus HCV engine to be throttled
+@PART[TaurusHCV]:NEEDS[RSCapsuledyne]:FINAL
+{
+  @MODULE[ModuleEngines*]
+  {
+    %throttleLocked = False // True
+  }
+}
+
+//Turns the Taurus HCV engine into an orbital engine
+//Original by PocketBrotector
+@PART[TaurusHCV]:NEEDS[RSCapsuledyne]:FINAL
+{
+  @MODULE[ModuleEngines*]
+  {
+    %throttleLocked = False // True
+  }
+  !atmosphereCurve{}
+  atmosphereCurve
+  {
+    key = 0 305
+    key = 1 275
+    key = 9 0.001
+  }
+  @RESOURCE[MonoPropellant]
+  {
+    @amount = 250
+    @maxAmount = 250
+  }
+}

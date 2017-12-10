@@ -12,3 +12,7 @@ Mk2 Containers - CC-BY-NC 4.0
 Mk2 Essentials - MIT
 Mk2 Solar Batteries - MIT
 
+
+LVN_Clusters - CC-BY-NC-SA 4.0
+FTmN - CC-BY-NC-SA 4.0
+FTmN_new - CC-BY-NC-SA 4.0

@@ -1,0 +1,61 @@
+PART
+{
+	name = Size3SASBatt
+	module = Part
+	author = J. Robinson, J. Sathe
+	
+	mesh = model.mu
+	rescaleFactor = 1
+	
+	node_stack_top = 0.0, 0.25, 0.0, 0.0, 1, 0.0, 3
+	node_stack_bottom = 0.0, -0.25, 0.0, 0.0, -1, 0.0, 3
+	
+	TechRequired = experimentalElectrics
+	entryCost = 20000
+	cost = 12000
+	category = Control
+	subcategory = 0
+	title = R&S Z-8K Rechargeable Battery Reaction Wheel Module
+	manufacturer = R&S Capsuledyne
+	description = Bigger is always better, and R&S Capsuledyne didn't want to over do it - so the battery only holds 8000 units of electricity. To make up for this, R&S's finest engineers surrounded the battery with a big reaction wheel - leading to a very capable package.
+	
+	attachRules = 1,0,1,1,0
+	
+	mass = 0.733
+	dragModelType = default
+	maximum_drag = 0.2
+	minimum_drag = 0.3
+	angularDrag = 2
+	crashTolerance = 9
+	breakingForce = 200
+	breakingTorque = 200
+	maxTemp = 2000
+	bulkheadProfiles = size3
+
+	tags = capacitor cell charge e/c elect pack power volt watt cmg command control fly gyro moment react stab steer torque
+	
+	RESOURCE
+	{
+	 name = ElectricCharge
+	 amount = 8000
+	 maxAmount = 8000
+	}
+	
+	MODULE
+	{
+	
+		name = ModuleReactionWheel
+		
+		PitchTorque = 50
+		YawTorque = 50
+		RollTorque = 50
+
+		torqueResponseSpeed = 50
+		
+		RESOURCE
+		{
+			name = ElectricCharge
+			rate = 1.0
+		}
+	}
+}

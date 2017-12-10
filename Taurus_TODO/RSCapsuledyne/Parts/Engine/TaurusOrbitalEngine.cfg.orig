@@ -1,0 +1,132 @@
+PART
+{
+	name = TaurusOrbitalEngine
+	module = Part
+	author = J. Robinson, J. Sathe
+	mesh = model.mu
+	rescaleFactor = 1
+	node_stack_top = 0.0, 0.75, 0.0, 0.0, 1.0, 0.0, 3
+	node_stack_bottom = 0.0, -0.80, 0.0, 0.0, -1.0, 0.0, 3
+	fx_exhaustFlame_blue_small = 0.0, -0.8, 0.0, 0.0, 1.0, 0.0, running
+	fx_exhaustLight_blue = 0.0, -0.8, 0.0, 0.0, 0.0, 1.0, running
+	fx_smokeTrail_light = 0.0, -1.3, 0.0, 0.0, 1.0, 0.0, running
+	sound_vent_medium = engage
+	sound_rocket_hard = running
+	sound_vent_soft = disengage
+	sound_explosion_low = flameout
+	TechRequired = veryHeavyRocketry
+	entryCost = 18500
+	cost = 6499
+	category = Engine
+	subcategory = 0
+	title = RKMX-4 "Quadroodle" Liquid Fuel Engine
+	manufacturer = R&S Capsuledyne
+	description = Someone's been buying all the used Rockomax Poodles off the market. In unrelated news, R&S Capsuldyne has unveiled their new large orbital engine with a familiar design! It's really a staggering coincidence.
+	attachRules = 1,0,1,0,0
+	mass = 6
+	// heatConductivity = 0.06 // half default
+	emissiveConstant = 0.8 // engine nozzles are good at radiating.
+	dragModelType = default
+	maximum_drag = 0.2
+	minimum_drag = 0.2
+	angularDrag = 2
+	crashTolerance = 7
+	breakingForce = 200
+	breakingTorque = 200
+	maxTemp = 2000
+	bulkheadProfiles = size3
+
+	skinInternalConductionMult = 4.0
+	heatConductivity = 0.06 
+	
+	tags = orbit (quadroodle propuls rocket
+
+	MODULE
+	{
+		name = ModuleEngines
+		thrustVectorTransformName = thrustTransform
+		exhaustDamage = True
+		ignitionThreshold = 0.1
+		minThrust = 0
+		maxThrust = 960
+		heatProduction = 125
+		fxOffset = 0, 0, 0.4
+		EngineType = LiquidFuel
+
+		PROPELLANT
+		{
+			name = LiquidFuel
+			ratio = 0.9
+			DrawGauge = True
+		}
+		PROPELLANT
+		{
+			name = Oxidizer
+			ratio = 1.1
+		}
+		atmosphereCurve
+		{
+		 key = 0 375
+		 key = 1 90
+		 key = 3 0.001
+		}
+		
+	}
+	
+	MODULE
+	{
+		name = ModuleJettison
+		jettisonName = engineFairing
+		bottomNodeName = bottom
+		isFairing = True
+		jettisonedObjectMass = 0.5
+		jettisonForce = 15
+		jettisonDirection = 0 0 1
+		
+	}
+	
+	MODULE
+	{
+		name = ModuleGimbal
+		gimbalTransformName = thrustTransform
+		gimbalRange = 2.5
+	}
+	
+	MODULE
+	{
+		name = ModuleAnimateHeat
+		ThermalAnim = engine_glow
+	}
+	
+	MODULE
+	{
+		name = ModuleAlternator	
+		RESOURCE
+		{
+			name = ElectricCharge
+			rate = 8.0
+		}
+	}
+	
+	MODULE
+	{
+		name = ModuleTestSubject
+		
+		// nowhere: 0, srf: 1, ocean: 2, atmo: 4, space: 8
+		environments = 15
+		
+		useStaging = True
+		useEvent = True
+	}
+	
+	MODULE
+	{
+		name = ModuleSurfaceFX
+		thrustProviderModuleIndex = 0
+		fxMax = 0.75
+		maxDistance = 75
+		falloff = 1.5
+		thrustTransformName = thrustTransform
+	}
+	
+}

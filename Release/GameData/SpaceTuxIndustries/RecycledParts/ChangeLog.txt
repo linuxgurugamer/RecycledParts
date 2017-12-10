@@ -20,3 +20,12 @@ Fixed .version
 		Fixed shroud in the KANDL engine
 		Cleaned the Lightbulb folder
 		Removed Firespitter dependancy
+
+0.1.2
+	Fixed some heat related values in the Atomic Engines to bring them in line with stock
+	Added missing attach nodes in Atomic Engines
+	Updated tags
+	Added Kommitz's mods:  LVN_Clusters and two versions of the FTMN Nuclear Engines
+	Added TRR patch for the LVN engines, thanks to @MeCripp for it
+	Added tags to all of Kommitz's engines
+	Added RSCapsuledyne mod

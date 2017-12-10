@@ -1,0 +1,145 @@
+PART 
+{
+	name = TaurusHeatshield
+	module = Part
+	author = J. Robinson, J. Sathe
+	
+	mesh = model.mu
+	
+	scale = 1
+	rescaleFactor = 1
+	
+	node_stack_top = 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 3
+	node_stack_bottom = 0.0, -.238, 0.0, 0.0, -1.0, 0.0, 3
+	
+	fx_gasBurst_white = 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, decouple
+	sound_vent_large = decouple
+	
+	cost = 900
+	category = Thermal
+	subcategory = 0
+	
+	TechRequired = advLanding
+	entryCost = 1800
+	title = Taurus HCV Heat Shield
+	manufacturer = R&S Capsuledyne
+	description = After test pilots complained that the Taurus didn't look "spacey enough", the R&S team whipped up this "heatshield" to make them shut up. It also keeps the capsule safe during reentry, or whatever.
+	
+	attachRules = 1,0,1,0,0
+	
+	// --- standard part parameters ---
+	mass = 1.0
+	dragModelType = default
+	maximum_drag = 0.2
+	minimum_drag = 0.2
+	angularDrag = 2
+	crashTolerance = 9
+	breakingForce = 200
+	breakingTorque = 200
+	maxTemp = 3300
+	fuelCrossFeed = False
+	stageOffset = 1
+	childStageOffset = 1
+	bulkheadProfiles = size3
+	thermalMassModifier = 1.0
+
+	fuelCrossFeed = False
+	stageOffset = 1
+	childStageOffset = 1
+	PhysicsSignificance = 0 
+	
+	CoPOffset = 0.0, 0.26, 0.0
+	CoLOffset = 0.0, -0.2, 0.0
+
+	bulkheadProfiles = size3
+	tags = ablat drag entry insulate protect re- rocket therm	
+	
+	MODULE
+	{
+		name = ModuleJettison
+		jettisonName = fairing
+		bottomNodeName = bottom
+		isFairing = True
+		jettisonedObjectMass = 0.5
+		jettisonForce = 15
+		jettisonDirection = 0 0 1
+		stagingEnabled = False
+		checkBottomNode = True
+	}
+	MODULE
+	{
+		name = ModuleAblator
+		ablativeResource = Ablator
+		lossExp = -7500
+		lossConst = 0.1
+		pyrolysisLossFactor = 6000
+		reentryConductivity = 0.01
+		ablationTempThresh = 500
+
+		useChar = True
+		charModuleName = shieldChar
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		ejectionForce = 100
+		isOmniDecoupler = true
+		menuName = Jettison Heat Shield
+		stagingEnabled = False
+		stagingEnableText = HS Jettison Not Staged
+		stagingDisableText = HS Jettison Staged
+	}
+
+
+	MODULE
+	{
+		name = ModuleColorChanger
+		moduleID = shieldChar
+		shaderProperty = _BurnColor
+		useRate = False
+		toggleInEditor = False
+		toggleInFlight = False
+		redCurve
+		{
+			key = 0 0
+			key = 1 1
+		}
+		greenCurve
+		{
+			key = 0 0
+			key = 1 1
+		}
+		blueCurve
+		{
+			key = 0 0
+			key = 1 1
+		}
+		alphaCurve
+		{
+			key = 0 0.8
+		}
+	}
+
+	MODULE
+	{
+		name = ModuleLiftingSurface
+		useInternalDragModel = False
+		deflectionLiftCoeff = 3.375
+		liftingSurfaceCurve = CapsuleBottom
+		disableBodyLift = False
+		omnidirectional = False
+		perpendicularOnly = True
+		transformDir = Y
+		transformSign = -1
+		nodeEnabled = True
+		attachNodeName = bottom
+	}
+
+
+	RESOURCE
+	{
+		name = Ablator
+		amount = 1800
+		maxAmount = 1800
+	}
+}	

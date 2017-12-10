@@ -8,3 +8,9 @@ Farscape
 Atomic Age
 	CommunityTechTree (recommended)
 	ModuleManager
+
+LVN_Clusters
+FTmN
+FTmN_new
+	CommunityTechTree (recommended)
+	ModuleManager

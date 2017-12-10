@@ -1,0 +1,52 @@
+PART
+{
+	name = Size3TinyTank
+	module = Part
+	author = J. Robinson, J. Sathe
+	
+	mesh = model.mu
+	rescaleFactor = 1
+	
+	node_stack_top = 0.0, 0.5, 0.0, 0.0, 1, 0.0, 3
+	node_stack_bottom = 0.0, -0.5, 0.0, 0.0, -1, 0.0, 3
+	node_attach = 0.0, 0.0, -1.89, 0.0, 0.0, 1.0
+	
+	TechRequired = largeVolumeContainment
+	entryCost = 9400
+	cost = 1625
+	category = FuelTank
+	subcategory = 0
+	title = R&S Capsuledyne S3-1800 Tank
+	manufacturer = R&S Capsuledyne
+	description = For such a large fuel tank, this is a pretty small fuel tank. It works best for large diameter upper stages. Trust us.
+	
+	attachRules = 1,1,1,1,0 
+	
+	mass = 1.125
+	dragModelType = default
+	maximum_drag = 0.2
+	minimum_drag = 0.3
+	angularDrag = 2
+	crashTolerance = 6
+	breakingForce = 200
+	breakingTorque = 200
+	maxTemp = 2000
+
+	bulkheadProfiles = size3, srf
+	tags = fuel fueltank ?lfo propellant rocket
+	
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 810
+		maxAmount = 810
+	}
+	
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 990
+		maxAmount = 990
+	}
+	
+}
