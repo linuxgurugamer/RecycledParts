@@ -50,6 +50,28 @@ STEADLER Engineering Corps
 O.M.B. Demolition Enterprises
 	Mk2 Stack Separator
 
+Nucleonics Ltd (from @Kommitz)
+	FTmN Atomic Rockets
+		FTmN-40
+		FTmN-160
+		FTmN-280
+		LtBY 18K
+	FTmN Atomic Rockets Improved
+		BL-40n
+		FTmN-80
+		FTmN-180
+		FTmN-400
+	LVN Clusters
+		LV-2N
+		LV-4N
+	R&S Capsuledyne
+		Taurus Orbital Engine
+		Taurus Nuclear Engine
+		SAS & Battery 
+		Taurus HitchHiker
+		Taurus Science Bay
+		Taurus HCV
+
 
 This is a revivial of the following mods, with the licenses each are covered by:
 
@@ -61,6 +83,12 @@ This is a revivial of the following mods, with the licenses each are covered by:
 	Mk2 Containers - CC-BY-NC 4.0
 	Mk2 Essentials - MIT
 	Mk2 Solar Batteries - MIT
+	FTmN Atomic Rockets - CC-BY-NC-SA 3.0
+	FTmN Atomic Rockets Improved - CC-BY-NC-SA 3.0
+	LVN Clusters - CC-BY-NC-SA 3.0
+	R&S Capsuledyne - GPLv3
+
+
 
 
 Packaging and Installing
@@ -87,6 +115,15 @@ Atomic Age
 	CommunityTechTree (recommended)
 	ModuleManager
 
+FTmN Atomic Rockets
+FTmN Atomic Rockets Improved
+LVN Clusters
+	Texturer Replacer Replaced (recommended)
+	CTT (recommended)
+R&S Capsuledyne
+	Baha Animation Module
+
+
 ===========================================================================================
 
 I am extremely grateful to the following people who provided invaluable assistance in updating some of the parts:
@@ -94,6 +131,8 @@ I am extremely grateful to the following people who provided invaluable assistan
 Forum user @Skalou
 	Skalou redid the models for the Atomic Age engines, to fix both the gimboling AND the nozzel on
 	the end of the Nuclear Jet engine.  I don't know what he did, but it works now.  He also added some new emissions to the jet
+
+@Skalou came through again with fixing the model for the Quadpoodle engine 
 
 Forum user @theonegalen
 	Theonegalen looked at one of the IVAs to assure me that it was working well, and pointed out a dependency which I was not aware of

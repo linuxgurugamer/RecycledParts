@@ -29,3 +29,6 @@ Fixed .version
 	Added TRR patch for the LVN engines, thanks to @MeCripp for it
 	Added tags to all of Kommitz's engines
 	Added RSCapsuledyne mod
+
+0.1.2.1
+	Updated QuadPoodle engine, engine bells now glow properly
