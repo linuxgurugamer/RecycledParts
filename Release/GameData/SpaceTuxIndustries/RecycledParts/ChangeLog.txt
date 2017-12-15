@@ -39,3 +39,21 @@ Fixed .version
 
 0.1.2.3
 	Removed Oxidizer from the atomic engines
+
+0.1.2.*
+	Fixed heat production of LV4N, it was way too low
+	Reduced the heat production of the FTmN40
+	Increased heat production of FTmN-160
+	Increased heat production of the FTmN-280
+	Reduced heat production of the LtBY 18K
+	Reduced heat production of the BL-40n
+	Increased heat production of the FTmN-80
+	Increased heat production of the FTmN-180
+	Increased heat production of the FTmN-400
+
+	Reduced heat production drasticly on the KANDL
+	Reduced heat production on the LANTR
+	Increased heat production on the NuclearJetEngine
+	Increased heat production of the taurusNuclearEngine
+	Changed secondary engines to conventional engine (Fuel+Ox) on
+		taurusNuclearEngine
