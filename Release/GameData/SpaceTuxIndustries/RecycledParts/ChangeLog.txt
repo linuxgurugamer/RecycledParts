@@ -36,3 +36,6 @@ Fixed .version
 0.1.2.2
 	Fixed attachment nodes on the new nuclear engines (bottom nodes were
 	backwards)
+
+0.1.2.3
+	Removed Oxidizer from the atomic engines
