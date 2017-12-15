@@ -40,7 +40,7 @@ Fixed .version
 0.1.2.3
 	Removed Oxidizer from the atomic engines
 
-0.1.2.*
+0.1.2.4
 	Fixed heat production of LV4N, it was way too low
 	Reduced the heat production of the FTmN40
 	Increased heat production of FTmN-160
