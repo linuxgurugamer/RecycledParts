@@ -57,3 +57,7 @@ Fixed .version
 	Increased heat production of the taurusNuclearEngine
 	Changed secondary engines to conventional engine (Fuel+Ox) on
 		taurusNuclearEngine
+
+0.1.2.5
+	Updated patch in AtomicAge to IntakeAtm being duplicated, thanks forum
+	user @AccidentalDisassembly
