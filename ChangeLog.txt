@@ -61,3 +61,10 @@ Fixed .version
 0.1.2.5
 	Updated patch in AtomicAge to IntakeAtm being duplicated, thanks forum
 	user @AccidentalDisassembly
+
+0.1.3
+	Added optional patches:
+		Add KER & Mechjeb to KSP9000
+		Add TexturesUnlimited patch thanks to @MeCripp
+
+	Fixed typo in Farscape patch
