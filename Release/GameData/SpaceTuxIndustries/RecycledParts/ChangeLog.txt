@@ -1,3 +1,6 @@
+0.1.3.x
+	Updated tech nodes for Farscape craft, both stock and CTT, thanks to forum user @Murdabenne
+
 0.1.0
 Initial release
 
@@ -68,3 +71,6 @@ Fixed .version
 		Add TexturesUnlimited patch thanks to @MeCripp
 
 	Fixed typo in Farscape patch
+
+0.1.4
+	Added NAU's Orgami Antennas
