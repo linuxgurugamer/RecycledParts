@@ -74,3 +74,6 @@ Fixed .version
 
 0.1.4
 	Added NAU's Orgami Antennas
+
+0.1.4.1
+	Updated description of the Taurus Nuclear Engine
