@@ -77,3 +77,14 @@ Fixed .version
 
 0.1.4.1
 	Updated description of the Taurus Nuclear Engine
+
+0.1.4.2
+	updated ISP of the chemical part of the Taurus Nuclear engine to match the
+	ISP of the Twitch engine
+	updated maxthrust of the chemical parts to equal 4 Twitch engines
+
+0.1.4.3
+	Fixed syntax error in PatchManager files
+	Add optional patch to convert the chemical engines of the Taurus Nuclear engine back to nuclear
+	Updated maxthrust of the chemical part to be larger, since the engines are
+	larger than the Twitch engine
