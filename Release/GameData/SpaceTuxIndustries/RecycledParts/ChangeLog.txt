@@ -1,5 +1,3 @@
-0.1.3.x
-	Updated tech nodes for Farscape craft, both stock and CTT, thanks to forum user @Murdabenne
 
 0.1.0
 Initial release
@@ -74,6 +72,7 @@ Fixed .version
 
 0.1.4
 	Added NAU's Orgami Antennas
+	Updated tech nodes for Farscape craft, both stock and CTT, thanks to forum user @Murdabenne
 
 0.1.4.1
 	Updated description of the Taurus Nuclear Engine
@@ -88,3 +87,8 @@ Fixed .version
 	Add optional patch to convert the chemical engines of the Taurus Nuclear engine back to nuclear
 	Updated maxthrust of the chemical part to be larger, since the engines are
 	larger than the Twitch engine
+
+0.1.4.4
+	Thanks to forum user @Munar Industries, the TaurusHCV has been fixed and
+	upgraded with external lighting for the windows and language localization
+	for the controls
