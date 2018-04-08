@@ -92,3 +92,7 @@ Fixed .version
 	Thanks to forum user @Munar Industries, the TaurusHCV has been fixed and
 	upgraded with external lighting for the windows and language localization
 	for the controls
+
+0.1.4.5
+	Added German Translation, thanks to forum user @LeLeon
+	Updated .version file to allow all 1.4.1+
