@@ -4,7 +4,7 @@
 rem Set variables here
 
 set H=R:\KSP_1.3.1_dev
-set GAMEDATA=Release\GameData
+set GAMEDATA=GameData
 set MODNAME=RecycledParts
 set GAMEDIR=SpaceTuxIndustries\%MODNAME%
 set LICENSE=Licenses.txt
@@ -51,6 +51,6 @@ rem Build the zip FILE
 
 set FILE="%RELEASEDIR%\%MODNAME%-%VERSION%.zip"
 IF EXIST %FILE% del /F %FILE%
-%ZIP% a -tzip %FILE% %GAMEDATA%\..
+%ZIP% a -tzip %FILE% %GAMEDATA% Ships
 
 pause
