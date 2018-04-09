@@ -27,8 +27,7 @@
 1:SpaceTuxIndustries, RecycledParts.version, RecycledParts
 
 # 3:SOURCEFILE, DESTDIR
-3:RecycledParts.version,GameData/SpaceTuxIndustries
-3:RecycledParts.version,GameData/000_FilterExtensions
+3:RecycledParts.version,GameData/SpaceTuxIndustries/RecycledParts
 
 #3:LICENSE.md,GameData/KerbalHotSeat
 3:ReadMe.md,GameData/SpaceTuxIndustries

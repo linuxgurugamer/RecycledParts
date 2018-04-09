@@ -96,3 +96,6 @@ Fixed .version
 0.1.4.5
 	Added German Translation, thanks to forum user @LeLeon
 	Updated .version file to allow all 1.4.1+
+
+0.1.4.6
+	Fixed extra .version files
