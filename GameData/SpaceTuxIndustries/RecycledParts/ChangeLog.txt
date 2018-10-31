@@ -99,3 +99,6 @@ Fixed .version
 
 0.1.4.6
 	Fixed extra .version files
+	
+0.1.4.7
+	Version bump for 1.5 
