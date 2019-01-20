@@ -102,3 +102,6 @@ Fixed .version
 	
 0.1.4.7
 	Version bump for 1.5 
+	
+0.1.5
+	Added missing bulkheadProfiles
