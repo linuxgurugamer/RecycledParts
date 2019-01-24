@@ -105,3 +105,9 @@ Fixed .version
 	
 0.1.5
 	Added missing bulkheadProfiles
+	
+0.1.6
+	Thanks to forum user @Tonka Crash for these:
+		Fixes the RSCapsuledyne TaurusScienceBay (change scienceMultiplier from 5.5 to 6)
+		Fixes the RSCapsuledyne Agents.cfg (added title,  fixed URLs)
+		Added patch for when IndicatorLights is installed 
