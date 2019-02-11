@@ -111,3 +111,6 @@ Fixed .version
 		Fixes the RSCapsuledyne TaurusScienceBay (change scienceMultiplier from 5.5 to 6)
 		Fixes the RSCapsuledyne Agents.cfg (added title,  fixed URLs)
 		Added patch for when IndicatorLights is installed 
+        
+0.1.6.1
+    Fixed error in part name caused by forum filters
