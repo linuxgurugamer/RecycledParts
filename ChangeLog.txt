@@ -116,11 +116,11 @@ Fixed .version
 0.1.6.1
     Fixed error in part name caused by forum filters
 
-1.2.0
+0.2.0
 	Thanks to @Jognt for this:
 		Hide the IntakeAtm resource.
 	Updated to KSP 1.8
 
-1.2.0.1
+0.2.0.1
 	Updated antenna values for the two NAU antennas to bring them in line with
 	other antenna values
