@@ -120,3 +120,7 @@ Fixed .version
 	Thanks to @Jognt for this:
 		Hide the IntakeAtm resource.
 	Updated to KSP 1.8
+
+1.2.0.1
+	Updated antenna values for the two NAU antennas to bring them in line with
+	other antenna values
