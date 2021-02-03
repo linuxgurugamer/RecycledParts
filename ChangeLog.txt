@@ -124,3 +124,7 @@ Fixed .version
 0.2.0.1
 	Updated antenna values for the two NAU antennas to bring them in line with
 	other antenna values
+
+0.2.0.2
+	Fixed bulkheadProfile in the bahaMk2LightningCockpit
+

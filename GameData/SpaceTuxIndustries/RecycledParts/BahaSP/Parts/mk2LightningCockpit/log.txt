@@ -1,0 +1,6 @@
+LOG : Opening file : D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\BahaSP\Parts\mk2LightningCockpit\texture.png
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\BahaSP\Parts\mk2LightningCockpit\texture.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\BahaSP\Parts\mk2LightningCockpit\texture.dds
+    Format : Dxt5, normalmap : False, res: 2048x2048
+Flipping image...
+FlipImage took 31.4449996948242ms
+Image conversion took 1042.14709472656ms
