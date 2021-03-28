@@ -128,3 +128,8 @@ Fixed .version
 0.2.0.2
 	Fixed bulkheadProfile in the bahaMk2LightningCockpit
 
+0.2.0.3
+	Adjusted drag cubes in the Mk2Essentials:  sAS, serarator & decoupler
+	Adjusted maxTemp in all Mk2Essentials to 2500 to match stock
+
+
