@@ -138,3 +138,5 @@ Fixed .version
 		Added tags to cockpits
 		Cleaned up formatting 
 		Updated code for KSP 1.8+
+		Added AssemblyVersion.tt
+		Added installChecker.cs
