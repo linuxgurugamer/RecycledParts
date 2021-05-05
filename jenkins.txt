@@ -27,7 +27,7 @@
 1:SpaceTuxIndustries, RecycledParts.version, RecycledParts
 
 # 2:PROJNAME, PROJFILE, VERSIONFILE, PLUGINSFOLDER
-2:BDMk22,BDMk22Plugin/BDMk22.csproj,RecycledParts.version,GameData/RecycledParts/Plugins
+2:BDMk22,BDMk22Plugin/BDMk22.csproj,RecycledParts.version,GameData/SpaceTuxIndustries/Plugins
 
 # 3:SOURCEFILE, DESTDIR
 3:RecycledParts.version,GameData/SpaceTuxIndustries/RecycledParts
