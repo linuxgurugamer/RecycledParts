@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F6D8476D-7E83-4CEB-8AB7-4D0F3B6F9251}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BDMk22Plugin</RootNamespace>
+    <AssemblyName>BDMk22</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ConsolePause>False</ConsolePause>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>False</ConsolePause>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="Mk22HUD.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="UVTransformer.cs" />
+    <Compile Include="HUDNumberField.cs" />
+    <Compile Include="Mk22HUDSwitch.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="$(KSPDIR)\KSP_x64_Data\Managed\Assembly*.dll">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="$(KSPDIR)\KSP_x64_Data\Managed\UnityEngine*.dll">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Distribution\GameData\BDMk22\ChangeLog.txt" />
+    <Content Include="Distribution\GameData\BDMk22\License.txt" />
+    <Content Include="Distribution\GameData\BDMk22\Parts\mk22cockpit\normalMap_NRM.dds" />
+    <Content Include="Distribution\GameData\BDMk22\Parts\mk22cockpit\nrm_mk22Pj_NRM.dds" />
+    <Content Include="Distribution\GameData\BDMk22\Parts\mk22cockpit\texture.dds" />
+    <Content Include="Distribution\GameData\BDMk22\Parts\mk22cockpit\texturePJ.dds" />
+    <Content Include="Distribution\GameData\BDMk22\Parts\mk22Scockpit\nrm_mk22sPJ_NRM.dds" />
+    <Content Include="Distribution\GameData\BDMk22\Parts\mk22Scockpit\textureSPJ.dds" />
+    <Content Include="Distribution\GameData\BDMk22\Readme.txt" />
+    <Content Include="Distribution\GameData\BDMk22\Sounds\endLoad.wav" />
+    <Content Include="Distribution\GameData\BDMk22\Sounds\loading.wav" />
+    <Content Include="Distribution\GameData\BDMk22\Sounds\shutdown.wav" />
+    <Content Include="Distribution\GameData\BDMk22\Sounds\startLoad.wav" />
+    <Content Include="Distribution\GameData\BDMk22\Spaces\mk22Internal\Mk22HUDLadder.dds" />
+    <Content Include="Distribution\GameData\BDMk22\Spaces\mk22Internal\tex_hudAtlas.dds" />
+    <Content Include="Distribution\GameData\BDMk22\Spaces\mk22Internal\tex_mk22chair.dds" />
+    <Content Include="Distribution\GameData\BDMk22\Spaces\mk22Internal\tex_mk22interior.dds" />
+    <Content Include="Distribution\GameData\BDMk22\Spaces\mk22Internal\tex_mk2HUD.dds" />
+    <Content Include="LocalDev\7za_dir.txt" />
+    <Content Include="LocalDev\dist_dir.txt" />
+    <Content Include="LocalDev\ksp_dir.txt" />
+    <Content Include="LocalDev\mono_exe.txt" />
+    <Content Include="LocalDev\pdb2mdb_exe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Distribution\GameData\BDMk22\Parts\mk22cockpit\mk22cockpit.cfg" />
+    <None Include="Distribution\GameData\BDMk22\Parts\mk22cockpit\model.mu" />
+    <None Include="Distribution\GameData\BDMk22\Parts\mk22Scockpit\mk22scockpit.cfg" />
+    <None Include="Distribution\GameData\BDMk22\Parts\mk22Scockpit\model.mu" />
+    <None Include="Distribution\GameData\BDMk22\Props\HUDToggleSwitch.cfg" />
+    <None Include="Distribution\GameData\BDMk22\Spaces\mk22Internal\internal.cfg" />
+    <None Include="Distribution\GameData\BDMk22\Spaces\mk22Internal\model.mu" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Distribution\GameData\BDMk22\Plugins\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PostBuildEvent>
+set KSPDIR=$(KSPDIR)
+
+IF "%25KSPDIR%25"=="" (
+
+	ECHO Configuration error - KSPDIR not specified in project.
+
+	ECHO Either set KSPDIR environment variable or edit BetterLoadSaveGame.Common.props
+
+	PAUSE
+
+	GOTO DONE
+
+)
+
+start /D $(SolutionDir) /WAIT deploy.bat  $(TargetDir) $(TargetFileName) $(TargetName)
+
+if $(ConfigurationName) == Release (	
+
+	start /D $(SolutionDir) /WAIT buildRelease.bat $(TargetDir) $(TargetFileName) $(TargetName)
+
+)</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+rem "$(DevEnvDir)\texttransform.exe" "$(ProjectDir)AssemblyVersion.tt"</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Target Name="PostBuildMacros">
+    <GetAssemblyIdentity AssemblyFiles="$(TargetPath)">
+      <Output TaskParameter="Assemblies" ItemName="Targets" />
+    </GetAssemblyIdentity>
+    <ItemGroup>
+      <VersionNumber Include="@(Targets->'%(Version)')" />
+    </ItemGroup>
+  </Target>
+  <PropertyGroup>
+    <PostBuildEventDependsOn>
+    $(PostBuildEventDependsOn);
+    PostBuildMacros;
+  </PostBuildEventDependsOn>
+  </PropertyGroup>
+</Project>

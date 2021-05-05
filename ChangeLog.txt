@@ -133,3 +133,8 @@ Fixed .version
 	Adjusted maxTemp in all Mk2Essentials to 2500 to match stock
 
 
+0.2.1
+	Added Mk22 Cockpits from user @BahamutoD
+		Added tags to cockpits
+		Cleaned up formatting 
+		Updated code for KSP 1.8+

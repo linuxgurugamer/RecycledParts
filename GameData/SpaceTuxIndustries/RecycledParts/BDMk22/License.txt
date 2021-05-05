@@ -1,0 +1,15 @@
+This mod for Kerbal Space Program is distributed under the license CC-BY-SA 2.0.
+
+Original Author: Paolo Encarnacion (BahamutoD)
+Current Author:  Joe Korinek (Papa_Joe)
+Original Source: https://github.com/BahamutoD/BDMk22Plugin
+Current Source: https://github.com/PapaJoesSoup/BDMk22Plugin
+
+This software was created by and is copyright Paolo Encarnacion (BahamutoD)
+Portions of this software are modified by Joe Korinek (Papa_Joe) to ensure continued functionality for its original purpose.
+
+Please read about the license at
+
+https://creativecommons.org/licenses/by-sa/2.0/
+
+before attempting to modify and redistribute it.

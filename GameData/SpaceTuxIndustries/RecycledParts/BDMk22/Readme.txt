@@ -1,0 +1,1 @@
+This mod requires the latest versions of ASET Props and RasterPropMonitor to work properly.

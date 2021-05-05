@@ -1,0 +1,23 @@
+v1.6.1
+- KSP1.4 Compatibility
+
+v1.6
+- KSP1.3 Compatibility  Jump in version number.
+
+v1.1.1.2
+- KSP1.2 Compatibility
+
+v1.1.1 (first version published by Papa_Joe)
+- KSP 1.1.3 compatibility
+- Change of authors.  Restructured mod to fit standard mod distribution structure
+- Restructured solution to automate build, deploy and distribution.
+- Cleaned up code to enforce strict typing.
+
+ This mod was created by and is copyright Paolo Encarnacion (BahamutoD)
+ Portions of this Mod are modified by Joe Korinek (Papa_Joe) to ensure continued functionality for its original purpose.
+
+v1.1 (last version released by BahamutoD.
+- KSP v1.1 compatibility
+
+v1.0
+- Release
