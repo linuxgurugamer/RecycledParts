@@ -140,3 +140,8 @@ Fixed .version
 		Updated code for KSP 1.8+
 		Added AssemblyVersion.tt
 		Added installChecker.cs
+
+0.2.1.1
+	Fixed Install_Loc stanza in version file
+	Added AssemblyFileVersion
+	Updated version file for 1.12
