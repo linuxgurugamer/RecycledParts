@@ -145,3 +145,17 @@ Fixed .version
 	Fixed Install_Loc stanza in version file
 	Added AssemblyFileVersion
 	Updated version file for 1.12
+
+0.2.2
+	Thanks to @JadeOfMaar for this:
+		Raised their costs, masses, capacities and ElectricCharge demands to compare well with Nertea's Heat Control.
+		Disabled parent cooling only so they're effective from anywhere on vessel.
+		Updated titles and descriptions.
+
+	Nuclear jet
+	    Decreased Isp so it requires more air. It's extremely efficient just by handling IntakeAtm, but it can't be that efficient with IntakeAtm itself.
+	    Decreased heat production so it doesn't threaten to overheat so soon.
+
+	Waterfall
+	    Waterfall configs for all engines. Contributed by Hohmannson (same name on GitHub and KSP forum). Derived from Stock Waterfall Effects by Knight of St John.
+
