@@ -159,3 +159,5 @@ Fixed .version
 	Waterfall
 	    Waterfall configs for all engines. Contributed by Hohmannson (same name on GitHub and KSP forum). Derived from Stock Waterfall Effects by Knight of St John.
 
+0.2.3
+	Converted most textures to dds
