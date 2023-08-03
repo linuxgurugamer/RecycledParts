@@ -1,0 +1,296 @@
+-----
+Folder infos : 
+MBM files count : 18
+TGA files count : 3
+PNG files count : 35
+Backup files count : 0
+-----
+-----
+Starting conversion of 56 files.
+    MBM count : 18.
+    TGA count : 3.
+    PNG count : 35.
+0 files excluded, 0 files without mipmaps. 0 files will skip normal detection.0 files will not be resized.
+-----
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mk2Essentials\mk2Separator\separatormk2.mbm to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mk2Essentials\mk2Separator\separatormk2.dds
+    Format : Dxt1, normalmap : False, res: 1024x256
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mk2Essentials\mk2SAS\SAStexture.mbm to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mk2Essentials\mk2SAS\SAStexture.dds
+    Format : Dxt5, normalmap : False, res: 512x512
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mk2Essentials\mk2Decoupler\decouplermk2.mbm to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mk2Essentials\mk2Decoupler\decouplermk2.dds
+    Format : Dxt1, normalmap : False, res: 1024x256
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mk2Essentials\mk2BatteryAlt\mk2Battery.mbm to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mk2Essentials\mk2BatteryAlt\mk2Battery.dds
+    Format : Dxt1, normalmap : False, res: 256x128
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mk2Essentials\mk2Battery\batteryTex.mbm to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mk2Essentials\mk2Battery\batteryTex.dds
+    Format : Dxt1, normalmap : False, res: 1024x1024
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\LVN_Clusters\diff.mbm to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\LVN_Clusters\diff.dds
+    Format : Dxt5, normalmap : False, res: 1024x1024
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\LVN_Clusters\emissive.mbm to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\LVN_Clusters\emissive.dds
+    Format : Dxt1, normalmap : False, res: 1024x1024
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\LVN_Clusters\fairing.mbm to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\LVN_Clusters\fairing.dds
+    Format : Dxt5, normalmap : False, res: 512x512
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\KAL9000\Parts\KAL9000\body.mbm to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\KAL9000\Parts\KAL9000\body.dds
+    Format : Dxt1, normalmap : False, res: 1024x1024
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\KAL9000\Parts\KAL9000\bodybump.mbm to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\KAL9000\Parts\KAL9000\bodybump.dds
+    Format : Dxt5, normalmap : True, res: 1024x1024
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\KAL9000\Parts\KAL9000\KAL_EYE.mbm to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\KAL9000\Parts\KAL9000\KAL_EYE.dds
+    Format : Dxt1, normalmap : False, res: 512x512
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\ftmn_new\parts\engine\common\commonparts.mbm to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\ftmn_new\parts\engine\common\commonparts.dds
+    Format : Dxt5, normalmap : False, res: 1024x1024
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Clockwork_Industries\Spare_Parts\Parts\RamAirIntakeMK3\Ram jet Mk 10 Normal NRM 1.mbm to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Clockwork_Industries\Spare_Parts\Parts\RamAirIntakeMK3\Ram jet Mk 10 Normal NRM 1.dds
+    Format : Dxt5, normalmap : True, res: 512x512
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Clockwork_Industries\Spare_Parts\Parts\RamAirIntakeMK3\Ram jet Mk12c small Finish.mbm to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Clockwork_Industries\Spare_Parts\Parts\RamAirIntakeMK3\Ram jet Mk12c small Finish.dds
+    Format : Dxt5, normalmap : False, res: 512x512
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Clockwork_Industries\Spare_Parts\Parts\Oxidiser_Store\Oxi Tank Disparity Mk2.mbm to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Clockwork_Industries\Spare_Parts\Parts\Oxidiser_Store\Oxi Tank Disparity Mk2.dds
+    Format : Dxt1, normalmap : False, res: 512x512
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Clockwork_Industries\Spare_Parts\Parts\Large_Fifteen_Deg_Adpt\Large 15 deg adpt gen5 mk12F.mbm to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Clockwork_Industries\Spare_Parts\Parts\Large_Fifteen_Deg_Adpt\Large 15 deg adpt gen5 mk12F.dds
+    Format : Dxt1, normalmap : False, res: 1024x1024
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Clockwork_Industries\Spare_Parts\Parts\Fifteen_Deg_Adapter\Adapter type 2 MK9.mbm to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Clockwork_Industries\Spare_Parts\Parts\Fifteen_Deg_Adapter\Adapter type 2 MK9.dds
+    Format : Dxt1, normalmap : False, res: 512x512
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Clockwork_Industries\Spare_Parts\Parts\Adapter_Tank\Adapter Tank MK5.mbm to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Clockwork_Industries\Spare_Parts\Parts\Adapter_Tank\Adapter Tank MK5.dds
+    Format : Dxt1, normalmap : False, res: 512x512
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\glass.tga to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\glass.dds
+    Format : Dxt5, normalmap : False, res: 128x128
+Flipping image...
+FlipImage took 0.892700016498566ms
+Image conversion took 38.5312004089355ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\red.tga to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\red.dds
+    Format : Dxt5, normalmap : False, res: 512x512
+Flipping image...
+FlipImage took 1.8264000415802ms
+Image conversion took 102.793098449707ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\ftmn_new\effects\softParticle.tga to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\ftmn_new\effects\softParticle.dds
+    Format : Dxt5, normalmap : False, res: 64x64
+Flipping image...
+FlipImage took 0.226099997758865ms
+Image conversion took 29.9841003417969ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\TaurusCockpit\boxcirctvBump_NRM.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\TaurusCockpit\boxcirctvBump_NRM.dds
+    Format : Dxt5, normalmap : True, res: 2048x2048
+Flipping image...
+FlipImage took 23.5881996154785ms
+SwizzleImage took 48.6528015136719ms
+Image conversion took 156.050796508789ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\TaurusCockpit\boxcirctvEmmissive.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\TaurusCockpit\boxcirctvEmmissive.dds
+    Format : Dxt5, normalmap : False, res: 1024x1024
+Flipping image...
+FlipImage took 6.2133002281189ms
+Image conversion took 223.900894165039ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\TaurusCockpit\boxcirctvTex3.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\TaurusCockpit\boxcirctvTex3.dds
+    Format : Dxt1, normalmap : False, res: 1024x1024
+Flipping image...
+FlipImage took 5.79629993438721ms
+Image conversion took 288.586486816406ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\TaurusCockpit\chairTex2.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\TaurusCockpit\chairTex2.dds
+    Format : Dxt1, normalmap : False, res: 1024x1024
+Flipping image...
+FlipImage took 6.01510000228882ms
+Image conversion took 292.905090332031ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\TaurusCockpit\panelBump_NRM.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\TaurusCockpit\panelBump_NRM.dds
+    Format : Dxt5, normalmap : True, res: 2048x2048
+Flipping image...
+FlipImage took 23.4906005859375ms
+SwizzleImage took 53.6008987426758ms
+Image conversion took 169.065399169922ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\TaurusCockpit\panelTex2.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\TaurusCockpit\panelTex2.dds
+    Format : Dxt1, normalmap : False, res: 1024x1024
+Flipping image...
+FlipImage took 6.58010005950928ms
+Image conversion took 291.977294921875ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\TaurusCockpit\seatrailsTex2.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\TaurusCockpit\seatrailsTex2.dds
+    Format : Dxt1, normalmap : False, res: 1024x1024
+Flipping image...
+FlipImage took 5.75699996948242ms
+Image conversion took 284.835296630859ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\TaurusCockpit\wallsAlpha.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\TaurusCockpit\wallsAlpha.dds
+    Format : Dxt5, normalmap : False, res: 1024x1024
+Flipping image...
+FlipImage took 6.14370012283325ms
+Image conversion took 282.516204833984ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\TaurusCockpit\wallsBump_NRM.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\TaurusCockpit\wallsBump_NRM.dds
+    Format : Dxt5, normalmap : True, res: 2048x2048
+Flipping image...
+FlipImage took 24.4459991455078ms
+SwizzleImage took 56.029899597168ms
+Image conversion took 175.000396728516ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\TaurusCockpit\wallsTex2.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\TaurusCockpit\wallsTex2.dds
+    Format : Dxt1, normalmap : False, res: 1024x1024
+Flipping image...
+FlipImage took 6.1729998588562ms
+Image conversion took 320.823303222656ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\HitchhikerInternal\chairTex2.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\HitchhikerInternal\chairTex2.dds
+    Format : Dxt1, normalmap : False, res: 1024x1024
+Flipping image...
+FlipImage took 7.08479976654053ms
+Image conversion took 291.024505615234ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\HitchhikerInternal\internalAlpha.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\HitchhikerInternal\internalAlpha.dds
+    Format : Dxt5, normalmap : False, res: 512x512
+Flipping image...
+FlipImage took 2.66059994697571ms
+Image conversion took 85.4052963256836ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\HitchhikerInternal\internalBump_NRM.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\HitchhikerInternal\internalBump_NRM.dds
+    Format : Dxt5, normalmap : True, res: 2048x2048
+Flipping image...
+FlipImage took 24.4022998809814ms
+SwizzleImage took 54.9654006958008ms
+Image conversion took 178.244995117188ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\HitchhikerInternal\internalEmissive.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\HitchhikerInternal\internalEmissive.dds
+    Format : Dxt1, normalmap : False, res: 512x512
+Flipping image...
+FlipImage took 2.00600004196167ms
+Image conversion took 95.7372970581055ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\HitchhikerInternal\internalTex2.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Spaces\HitchhikerInternal\internalTex2.dds
+    Format : Dxt1, normalmap : False, res: 1024x1024
+Flipping image...
+FlipImage took 5.84749984741211ms
+Image conversion took 300.550598144531ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Agencies\RSCapsuledyne.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Agencies\RSCapsuledyne.dds
+    Format : Dxt5, normalmap : False, res: 256x160
+Flipping image...
+FlipImage took 0.557799994945526ms
+Image conversion took 41.3543014526367ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Agencies\RSCapsuledyne_scaled.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\RSCapsuledyne\Agencies\RSCapsuledyne_scaled.dds
+LOG : Resolution is considered too low for DXT compression. DISABLING MIPMAPS!
+    Format : Dxt5, normalmap : False, res: 64x40
+Flipping image...
+FlipImage took 0.192699998617172ms
+Image conversion took 27.7259998321533ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\NAU\Flags\nau_aerospace.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\NAU\Flags\nau_aerospace.dds
+    Format : Dxt1, normalmap : False, res: 256x160
+Flipping image...
+FlipImage took 0.597199976444244ms
+Image conversion took 38.6726989746094ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Flags\FarScape.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Flags\FarScape.dds
+    Format : Dxt1, normalmap : False, res: 256x160
+Flipping image...
+FlipImage took 0.550300002098084ms
+Image conversion took 38.247200012207ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Flags\IASA.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Flags\IASA.dds
+    Format : Dxt5, normalmap : False, res: 256x160
+Flipping image...
+FlipImage took 0.575999975204468ms
+Image conversion took 36.9710998535156ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Flags\Redwolf.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Flags\Redwolf.dds
+ERR : Unknown file format P8, skipping conversion for D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Flags\Redwolf.png
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\Addon.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\Addon.dds
+LOG : Resolution is considered too low for DXT compression. DISABLING MIPMAPS!
+    Format : Dxt1, normalmap : False, res: 84x44
+Flipping image...
+FlipImage took 0.321599990129471ms
+Image conversion took 35.4334983825684ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\DeepPurple.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\DeepPurple.dds
+ERR : Unknown file format P8, skipping conversion for D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\DeepPurple.png
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\Farscape (10).png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\Farscape (10).dds
+ERR : Unknown file format P8, skipping conversion for D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\Farscape (10).png
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\gold1.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\gold1.dds
+LOG : Resolution is considered too low for DXT compression. DISABLING MIPMAPS!
+    Format : Dxt5, normalmap : False, res: 52x40
+Flipping image...
+FlipImage took 0.220799997448921ms
+Image conversion took 28.449499130249ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\gold2.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\gold2.dds
+LOG : Resolution is considered too low for DXT compression. DISABLING MIPMAPS!
+    Format : Dxt1, normalmap : False, res: 52x40
+Flipping image...
+FlipImage took 0.231499999761581ms
+Image conversion took 32.8661003112793ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\Grey.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\Grey.dds
+LOG : Resolution is considered too low for DXT compression. DISABLING MIPMAPS!
+    Format : Dxt1, normalmap : False, res: 32x32
+Flipping image...
+FlipImage took 0.224999994039536ms
+Image conversion took 27.7633991241455ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\GreyMetal.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\GreyMetal.dds
+ERR : Unknown file format P8, skipping conversion for D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\GreyMetal.png
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\Spaces\black.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\Spaces\black.dds
+LOG : Resolution is considered too low for DXT compression. DISABLING MIPMAPS!
+    Format : Dxt1, normalmap : False, res: 32x32
+Flipping image...
+FlipImage took 0.229000002145767ms
+Image conversion took 25.9316005706787ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\Spaces\Farscape (10).png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\Spaces\Farscape (10).dds
+ERR : Unknown file format P8, skipping conversion for D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\Mike_NZ_Crafts\Farscape\Spaces\Farscape (10).png
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\BahaSP\Spaces\Mk2LightningInternal\chairTexture.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\BahaSP\Spaces\Mk2LightningInternal\chairTexture.dds
+    Format : Dxt1, normalmap : False, res: 512x512
+Flipping image...
+FlipImage took 2.13940000534058ms
+Image conversion took 90.1387023925781ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\BahaSP\Spaces\Mk2LightningInternal\glasstest.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\BahaSP\Spaces\Mk2LightningInternal\glasstest.dds
+    Format : Dxt5, normalmap : False, res: 256x256
+Flipping image...
+FlipImage took 1.01929998397827ms
+Image conversion took 37.7102012634277ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\BahaSP\Spaces\Mk2LightningInternal\internalTexture.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\BahaSP\Spaces\Mk2LightningInternal\internalTexture.dds
+    Format : Dxt5, normalmap : False, res: 1024x1024
+Flipping image...
+FlipImage took 6.61390018463135ms
+Image conversion took 315.30810546875ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\BahaSP\Spaces\Mk2LightningInternal\tempGlass.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\BahaSP\Spaces\Mk2LightningInternal\tempGlass.dds
+    Format : Dxt5, normalmap : True, res: 64x64
+Flipping image...
+FlipImage took 0.28549998998642ms
+SwizzleImage took 0.138400003314018ms
+Image conversion took 50.644401550293ms
+---
+LOG : Converting D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\BahaSP\Parts\mk2LightningCockpit\texture.png to D:\Users\jbb\github\RecycledParts\GameData\SpaceTuxIndustries\RecycledParts\BahaSP\Parts\mk2LightningCockpit\texture.dds
+    Format : Dxt5, normalmap : False, res: 2048x2048
+Flipping image...
+FlipImage took 31.1646995544434ms
+Image conversion took 1158.79187011719ms
+---
+-----
+Conversion done! 56 files processed in 12325.1962890625ms.
+5 files skipped, check log.txt for more informations.
+-----
