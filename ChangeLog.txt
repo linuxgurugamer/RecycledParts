@@ -163,7 +163,9 @@ Fixed .version
 	Converted most textures to dds
 
 
-TBA
+0.2.4
+	Thanks to @JadeOfMaar for all the following:
+
 	FTmN:
 		Added/Updated effect configs where necessary, with and without Waterfall.
 		Added config for deprecating old redundant/duplicate parts when FTmN and FTmN_New are installed together.
