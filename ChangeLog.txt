@@ -184,3 +184,6 @@ Fixed .version
 		Lowered heat production value so engines don't threaten to overheat so quickly.
 		Updated titles to make you chuckle and neatly group the engines.
 		Updated specific impulse. Added very slight sea level performance.
+
+0.2.4.1
+	Added missing thrust update on one engine
