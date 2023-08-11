@@ -161,3 +161,23 @@ Fixed .version
 
 0.2.3
 	Converted most textures to dds
+
+
+TBA
+	FTmN:
+		Added/Updated effect configs where necessary, with and without Waterfall.
+		Added config for deprecating old redundant/duplicate parts when FTmN and FTmN_New are installed together.
+		Added alternators to most engines.
+		Raised thrust by 2.5x and mass by roughly 2x.
+		Lowered heat production value so engines don't threaten to overheat so quickly.
+		Updated titles to neatly group the engines and reflect updated thrust and suggested engine types.
+		Updated specific impulse to reflect suggested engine types and be better vacuum optimized.
+		Updated tech node positioning.
+		Updated some engines into bimodal/LANTR.
+		
+	LV-N Clusters:
+		Added/Updated effect configs where necessary, with and without Waterfall.
+		Raised thrust by 2.5x.
+		Lowered heat production value so engines don't threaten to overheat so quickly.
+		Updated titles to make you chuckle and neatly group the engines.
+		Updated specific impulse. Added very slight sea level performance.
