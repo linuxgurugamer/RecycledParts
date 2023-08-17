@@ -163,7 +163,9 @@ Fixed .version
 	Converted most textures to dds
 
 
-TBA
+0.2.4
+	Thanks to @JadeOfMaar for all the following:
+
 	FTmN:
 		Added/Updated effect configs where necessary, with and without Waterfall.
 		Added config for deprecating old redundant/duplicate parts when FTmN and FTmN_New are installed together.
@@ -182,3 +184,6 @@ TBA
 		Lowered heat production value so engines don't threaten to overheat so quickly.
 		Updated titles to make you chuckle and neatly group the engines.
 		Updated specific impulse. Added very slight sea level performance.
+
+0.2.4.1
+	Added missing thrust update on one engine
