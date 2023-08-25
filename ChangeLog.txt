@@ -187,3 +187,7 @@ Fixed .version
 
 0.2.4.1
 	Added missing thrust update on one engine
+
+0.2.4.2
+	Thanks to @JadeOfMarr for this:
+		title and tech node fixes
