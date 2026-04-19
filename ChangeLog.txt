@@ -1,23 +1,23 @@
 ChangeLog
 
 0.1.0
-Initial release
+	Initial release
 
 
 
 0.1.0.1
-Fixed a typo in the LANTR config
+	Fixed a typo in the LANTR config
 
 
 
 0.1.0.2
 
-Fixed node direction in the Lightning cockpit
+	Fixed node direction in the Lightning cockpit
 
 
 0.1.0.3
 
-Fixed .version
+	Fixed .version
 	AtomicAge:
 		Fixed shroud in the KANDL engine
 		Cleaned the Lightbulb folder
@@ -195,6 +195,12 @@ Fixed .version
 0.2.5
 	Updated version file to use github for new version info
 	Thanks to @JadeOfMarr for this:
+
+0.2.5.1
+	Thanks for forum user @JaneOfMaar for this:
+		Fix/Add Waterfall configs (LH2 positioning bug and missing Afterburner)
+		Straighten Isp curves
+		Reduce excess heatProduction in Afterburner mode
 		Added System Heat for engines and radiators
 		Updated radiator stats. They're more massive but more powerful, more crash resistant but less OP melt-proof
 		Updated VABOrganizer placement
