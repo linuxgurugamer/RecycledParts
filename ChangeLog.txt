@@ -191,3 +191,11 @@ Fixed .version
 0.2.4.2
 	Thanks to @JadeOfMarr for this:
 		title and tech node fixes
+
+0.2.5
+	Updated version file to use github for new version info
+	Thanks to @JadeOfMarr for this:
+		Added System Heat for engines and radiators
+		Updated radiator stats. They're more massive but more powerful, more crash resistant but less OP melt-proof
+		Updated VABOrganizer placement
+		Updated CTT placement (Radiators are no longer spread out just to pad the tech tree)
